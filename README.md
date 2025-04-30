@@ -1,9 +1,4 @@
 # LEETCODE-Arrays-1295
-```markdown
-# Even Number of Digits Counter
-
-This Java program contains a class `Solution` with a method that determines how many numbers in a given array contain an even number of digits.
-
 ## Problem Statement
 
 Given an array of integers, return how many of them contain an even number of digits.
@@ -50,21 +45,6 @@ class Solution {
     }
 }
 ```
-
-## How to Run
-
-1. Compile the Java code:
-
-```bash
-javac Solution.java
-```
-
-2. Run the main class (if you add a `main` method for testing):
-
-```bash
-java Solution
-```
-
 ## Note
 
 - This solution uses `Long.toString(n)` to safely handle large integers (although the array is of `int`, not `long`).
