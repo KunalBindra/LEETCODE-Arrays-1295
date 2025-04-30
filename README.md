@@ -49,5 +49,3 @@ class Solution {
 
 - This solution uses `Long.toString(n)` to safely handle large integers (although the array is of `int`, not `long`).
 - Can be optimized by using `Math.log10(n) + 1` instead of string conversion.
-
---
