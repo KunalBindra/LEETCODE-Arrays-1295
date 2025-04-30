@@ -1,0 +1,16 @@
+class Solution {
+    public static int count(int n)
+    {
+        String a=Long.toString(n);
+        return a.length();
+    }
+    public int findNumbers(int[] nums) {
+        int count=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            int x=count(nums[i]);
+            if(x%2==0) count++;
+        }
+        return count;
+    }
+}
